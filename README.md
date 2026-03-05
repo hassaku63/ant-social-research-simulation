@@ -44,7 +44,7 @@
 
 各AIシステムが参照するガイドラインファイル:
 
-| システム | 常時有効 (System Prompt) | 必要時参照 |
+| システム | 常時有効（システムプロンプト）| 必要時参照 |
 |---------|--------------------------|------------|
 | GitHub Copilot | `.github/copilot-instructions.md` | `docs/` 配下の各ドキュメント |
 | Claude Code | `CLAUDE.md` | `docs/` 配下の各ドキュメント |

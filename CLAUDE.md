@@ -1,4 +1,4 @@
-# CLAUDE.md — Claude Code System Instructions
+# CLAUDE.md — Claude Code システム指示
 
 このファイルはClaude Codeが常時参照するシステムレベルの指示です。
 プロジェクト全体を通じて有効です。

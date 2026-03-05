@@ -1,4 +1,4 @@
-# AGENTS.md — Agent Instructions (OpenAI Codex / General AI Agents)
+# AGENTS.md — エージェント向け指示（OpenAI Codex / 汎用AIエージェント）
 
 このファイルはOpenAI CodexおよびAI汎用エージェントが常時参照するシステムレベルの指示です。
 
