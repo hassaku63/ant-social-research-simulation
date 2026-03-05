@@ -1,14 +1,18 @@
 # ant-social-research-simulation
 
-蟻・蜂の集団行動システムの調査と、そのアルゴリズム応用のシミュレーションを行うプロジェクト。
+蟻・蜂などの社会性昆虫の集団知性（Swarm Intelligence）を研究・応用するためのリポジトリです。
+
+## 目的
+
+社会性昆虫（蟻・蜂）が、個体としては単純なルールに従いながら、集団として驚くほど効率的な行動を実現するメカニズムを深く理解し、そのモデルを人間社会やソフトウェアに応用することを目的としています。
 
 ---
 
-## テーマ
+## 2つの研究テーマ
 
-### テーマ1：先行研究調査とドキュメント化
+### テーマ1: 先行研究の調査・整理
 
-蟻・蜂の行動システムおよびその人間社会・ソフトウェアへの応用事例を調査し、なぜ・いかにそれらが効果的に機能するかをまとめる。
+蟻・蜂の行動システムに関する先行研究を収集・整理し、人間社会やソフトウェアへの応用事例を調査します。なぜ・いかにそれが機能するかを明らかにし、ドキュメントとしてまとめます。
 
 📄 **[調査ドキュメント](docs/research/)**
 
@@ -21,9 +25,9 @@
 
 ---
 
-### テーマ2：シミュレーション実装
+### テーマ2: シミュレーション・応用実装
 
-蟻・蜂の行動システムを応用することが有用な事案を検討し、概念検討・仕様策定・実装・検証のサイクルを実施する。
+蟻・蜂の行動システムを応用できる実際の問題を検討し、コンセプト検討→計画→仕様策定→実装→検証のサイクルを反復します。
 
 #### 第1弾：アント・コロニー最適化（ACO）による巡回セールスマン問題（TSP）の解法
 
@@ -55,22 +59,43 @@ pytest simulation/ant_colony_optimization/tests/ -v
 
 ---
 
-## プロジェクト構成
+## タスクサイクル
+
+すべてのタスクは以下のサイクルを反復します:
 
 ```
-ant-social-research-simulation/
-├── README.md
-├── docs/
-│   └── research/
-│       ├── 01_ant_behavior_systems.md
-│       ├── 02_bee_behavior_systems.md
-│       ├── 03_applications.md
-│       └── 04_summary.md
-└── simulation/
-    └── ant_colony_optimization/
-        ├── aco.py
-        ├── requirements.txt
-        ├── README.md
-        └── tests/
-            └── test_aco.py
+計画の言語化 → 詳細化（仕様検討）→ 実行（実装）→ 検証 → 振り返りを記録
 ```
+
+詳細: [`docs/workflow/task-cycle.md`](docs/workflow/task-cycle.md)
+
+---
+
+## ディレクトリ構成
+
+```
+.
+├── docs/
+│   ├── masterplan.md            # プロジェクト全体の計画・ステータス管理
+│   ├── ai-guidelines-master.md  # AIガイドラインのマスター文書
+│   ├── research/                # テーマ1: 先行研究・調査ドキュメント
+│   ├── simulation/              # テーマ2: シミュレーション設計・仕様
+│   └── workflow/                # タスク進行ガイドライン・テンプレート
+├── simulation/                  # 実装コード
+└── README.md
+```
+
+---
+
+## AI アシスタント向けガイドライン
+
+ガイドラインのマスター文書: [`docs/ai-guidelines-master.md`](docs/ai-guidelines-master.md)
+
+各AIシステムが参照するガイドラインファイル（マスター文書から派生）:
+
+| システム | 常時有効（システムプロンプト）| 必要時参照 |
+|---------|--------------------------|------------|
+| GitHub Copilot | `.github/copilot-instructions.md` | `docs/` 配下の各ドキュメント |
+| Claude Code | `CLAUDE.md` | `docs/` 配下の各ドキュメント |
+| OpenAI Codex / 汎用エージェント | `AGENTS.md` | `docs/` 配下の各ドキュメント |
+| Amazon Kiro | `.kiro/steering/project.md` | `.kiro/specs/` 配下の仕様ファイル |
