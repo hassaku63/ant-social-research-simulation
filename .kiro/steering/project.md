@@ -1,7 +1,10 @@
-# プロジェクト概要 (Amazon Kiro Steering)
+# プロジェクト概要（Amazon Kiro ステアリング）
 
 このファイルはAmazon Kiroが常時参照するステアリングファイルです。
 `inclusionMode: always` として扱われ、全セッションを通じて有効です。
+
+> **メンテナンス注意**: このファイルの内容は [`docs/ai-guidelines-master.md`](../../docs/ai-guidelines-master.md) をマスターとしています。
+> 内容を更新する場合は必ず全AIサービス向けファイルを同時に更新してください。
 
 ## リポジトリの目的
 
@@ -50,6 +53,7 @@ Kiroでタスクを実行する際は、新しいスペックファイルを `.k
 
 詳細なガイドラインは以下を参照:
 
+- **プロジェクト計画・ステータス**: `docs/masterplan.md`
 - **タスク進行の詳細手順**: `docs/workflow/task-cycle.md`
 - **研究タスクのガイドライン**: `docs/research/README.md`
 - **シミュレーションタスクのガイドライン**: `docs/simulation/README.md`

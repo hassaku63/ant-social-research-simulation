@@ -2,6 +2,9 @@
 
 このファイルはOpenAI CodexおよびAI汎用エージェントが常時参照するシステムレベルの指示です。
 
+> **メンテナンス注意**: このファイルの内容は [`docs/ai-guidelines-master.md`](docs/ai-guidelines-master.md) をマスターとしています。
+> 内容を更新する場合は必ず全AIサービス向けファイルを同時に更新してください。
+
 ## リポジトリの目的
 
 社会性昆虫（蟻・蜂）の集団知性（Swarm Intelligence）を研究・応用するリポジトリ。
@@ -51,6 +54,7 @@
 
 以下のドキュメントは詳細な作業が必要な場合に参照する:
 
+- **プロジェクト計画・ステータス**: `docs/masterplan.md`
 - **タスク進行の詳細手順**: `docs/workflow/task-cycle.md`
 - **研究タスクのガイドライン**: `docs/research/README.md`
 - **シミュレーションタスクのガイドライン**: `docs/simulation/README.md`
