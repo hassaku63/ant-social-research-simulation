@@ -23,3 +23,16 @@
 6. Theraulaz, G. & Bonabeau, E. (1999). A Brief History of Stigmergy. *Artificial Life*, 5(2), 97-116.
 
 > 注: Bonabeau et al. (1999), Dorigo & Stutzle (2004) はACOセクションに記載済み。
+
+## ワッグルダンス (Waggle Dance)
+
+1. Dornhaus, A. & Chittka, L. (2004). Why do honey bees dance? *Behavioral Ecology and Sociobiology*, 55(4), 395-401.
+2. Karaboga, D. (2005). An Idea Based on Honey Bee Swarm for Numerical Optimization. Technical Report TR06, Erciyes University.
+3. List, C. (2004). Democracy in animal groups: a political science perspective. *Trends in Ecology & Evolution*, 19(4), 168-169.
+4. Pham, D.T. et al. (2005). The Bees Algorithm — A Novel Tool for Complex Optimisation Problems. *Proceedings of IPROMS 2006*.
+5. Seeley, T.D. (2010). *Honeybee Democracy*. Princeton University Press.
+6. Seeley, T.D. & Buhrman, S.C. (2001). Nest-site selection in honey bees: how well do swarms implement the "best-of-N" decision strategy? *Behavioral Ecology and Sociobiology*, 49(5), 416-427.
+7. Seeley, T.D., Visscher, P.K., Schlegel, T., Hogan, P.M., Franks, N.R. & Marshall, J.A.R. (2012). Stop Signals Provide Cross Inhibition in Collective Decision-Making by Honeybee Swarms. *Science*, 335(6064), 108-111.
+8. von Frisch, K. (1967). *The Dance Language and Orientation of Bees*. Harvard University Press.
+
+> 注: Bonabeau et al. (1999) はACOセクションに記載済み。
