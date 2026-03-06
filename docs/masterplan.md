@@ -23,7 +23,7 @@
 
 | # | トピック | 優先度 | ステータス | ドキュメントパス |
 |---|---------|--------|-----------|----------------|
-| 1 | Ant Colony Optimization (ACO) | 高 | 未着手 | `docs/research/topics/aco/` |
+| 1 | Ant Colony Optimization (ACO) | 高 | 完了 | `docs/research/topics/aco/` |
 | 2 | スティグマジー | 高 | 未着手 | `docs/research/topics/stigmergy/` |
 | 3 | 蜂のワッグルダンス | 中 | 未着手 | `docs/research/topics/waggle-dance/` |
 | 4 | タスク分担・役割分化 | 中 | 未着手 | `docs/research/topics/task-allocation/` |
