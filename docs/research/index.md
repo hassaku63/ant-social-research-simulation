@@ -17,6 +17,6 @@
 |---------|------------|------|------|
 | Ant Colony Optimization (ACO) | [topics/aco/](topics/aco/) | 完了 | ACOの理論的基盤・バリエーション・収束性・パラメータ設計 |
 | スティグマジー | [topics/stigmergy/](topics/stigmergy/) | 完了 | スティグマジーの定義・分類・自然界の事例・ACOとの接続・応用 |
-| 蜂のワッグルダンス | topics/waggle-dance/ | 未着手 | 蜂の情報伝達メカニズム |
+| 蜂のワッグルダンス | [topics/waggle-dance/](topics/waggle-dance/) | 完了 | ワッグルダンスの信号構造・集団意思決定・アルゴリズム応用 |
 | タスク分担・役割分化 | topics/task-allocation/ | 未着手 | 社会性昆虫の労働分業モデル |
 | スウォームロボティクス | topics/swarm-robotics/ | 未着手 | 群知能のロボット工学応用 |
